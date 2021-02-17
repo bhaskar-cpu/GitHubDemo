@@ -1,0 +1,5 @@
+com\qa\Tests\LoginFeatureTest.class
+com\qa\Tests\DashboardFeatureTest.class
+com\qa\Tests\LoginTest.class
+com\qa\Tests\BaseTest.class
+com\qa\Tests\AddToCartFeatureTest.class

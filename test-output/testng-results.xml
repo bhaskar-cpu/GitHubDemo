@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-14T23:58:18 GMT-08:00" name="Suite" finished-at="2021-02-14T23:58:53 GMT-08:00" duration-ms="34716">
+    <groups>
+    </groups>
+    <test started-at="2021-02-14T23:58:18 GMT-08:00" name="Test Execution on Firefox Browser" finished-at="2021-02-14T23:58:49 GMT-08:00" duration-ms="30883">
+      <class name="com.qa.Tests.LoginTest">
+        <test-method is-config="true" signature="lauchApplication(java.lang.String)[pri:0, instance:com.qa.Tests.LoginTest@1dde4cb2]" started-at="2021-02-14T23:58:19 GMT-08:00" name="lauchApplication" finished-at="2021-02-14T23:58:47 GMT-08:00" duration-ms="28057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="verifyLoginPageTitleTest()[pri:0, instance:com.qa.Tests.LoginTest@1dde4cb2]" started-at="2021-02-14T23:58:47 GMT-08:00" name="verifyLoginPageTitleTest" finished-at="2021-02-14T23:58:47 GMT-08:00" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method signature="validateLoginIntoTheApplication()[pri:1, instance:com.qa.Tests.LoginTest@1dde4cb2]" started-at="2021-02-14T23:58:47 GMT-08:00" name="validateLoginIntoTheApplication" finished-at="2021-02-14T23:58:47 GMT-08:00" duration-ms="259" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Page Title doesn't match. Expected 'My account - My Stor' Actual : Login - My Store expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Page Title doesn't match. Expected 'My account - My Stor' Actual : Login - My Store expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at com.qa.Tests.LoginTest.validateLoginIntoTheApplication(LoginTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginIntoTheApplication -->
+        <test-method is-config="true" signature="closeDriverInstance()[pri:0, instance:com.qa.Tests.LoginTest@1dde4cb2]" started-at="2021-02-14T23:58:47 GMT-08:00" name="closeDriverInstance" finished-at="2021-02-14T23:58:49 GMT-08:00" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+      </class> <!-- com.qa.Tests.LoginTest -->
+    </test> <!-- Test Execution on Firefox Browser -->
+    <test started-at="2021-02-14T23:58:18 GMT-08:00" name="Test Execution on Chrome Browser" finished-at="2021-02-14T23:58:53 GMT-08:00" duration-ms="34716">
+      <class name="com.qa.Tests.LoginTest">
+        <test-method is-config="true" signature="lauchApplication(java.lang.String)[pri:0, instance:com.qa.Tests.LoginTest@636be97c]" started-at="2021-02-14T23:58:19 GMT-08:00" name="lauchApplication" finished-at="2021-02-14T23:58:42 GMT-08:00" duration-ms="23335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="verifyLoginPageTitleTest()[pri:0, instance:com.qa.Tests.LoginTest@636be97c]" started-at="2021-02-14T23:58:42 GMT-08:00" name="verifyLoginPageTitleTest" finished-at="2021-02-14T23:58:42 GMT-08:00" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method signature="validateLoginIntoTheApplication()[pri:1, instance:com.qa.Tests.LoginTest@636be97c]" started-at="2021-02-14T23:58:42 GMT-08:00" name="validateLoginIntoTheApplication" finished-at="2021-02-14T23:58:49 GMT-08:00" duration-ms="6690" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Page Title doesn't match. Expected 'My account - My Stor' Actual : 508 Resource Limit Is Reached expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Page Title doesn't match. Expected 'My account - My Stor' Actual : 508 Resource Limit Is Reached expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at com.qa.Tests.LoginTest.validateLoginIntoTheApplication(LoginTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginIntoTheApplication -->
+        <test-method is-config="true" signature="closeDriverInstance()[pri:0, instance:com.qa.Tests.LoginTest@636be97c]" started-at="2021-02-14T23:58:52 GMT-08:00" name="closeDriverInstance" finished-at="2021-02-14T23:58:53 GMT-08:00" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+      </class> <!-- com.qa.Tests.LoginTest -->
+    </test> <!-- Test Execution on Chrome Browser -->
+  </suite> <!-- Suite -->
+</testng-results>
